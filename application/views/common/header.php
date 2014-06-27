@@ -22,17 +22,7 @@
     <meta property="og:description" content="<?= $description ?>">
     <meta name="description" content="<?= $description ?>" />
 
-    <title>YourTaximeter | UK Taxi Fare Calculator | Taxi Numbers</title>
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-26695908-1', 'yourtaximeter.com');
-        ga('send', 'pageview');
-
-    </script>
+    <title><?= $title ?></title>
 </head>
 <body>
     <video autoplay loop poster="/assets/video/background.jpg" id="background" muted="true">

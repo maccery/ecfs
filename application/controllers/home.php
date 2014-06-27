@@ -5,7 +5,7 @@
         public function index()
         {
             $data['title'] = 'ECFS 2015';
-            $data['description'] = 'ECFS 2015';
+            $data['description'] = 'ECFS 2015 - coming soon.';
 
             $this->load->view('common/header', $data);
             $this->load->view('home');
