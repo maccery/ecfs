@@ -15,7 +15,7 @@
     <meta name="Revisit-after" content="1 Days">
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="/assets/img/ecfs-fb.png">
+    <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
     <meta property="og:title" content="<?= $title ?>">
     <meta property="og:description" content="<?= $description ?>">
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
