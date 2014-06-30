@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/site.css?v=2">
     <script type="text/javascript" src="//use.typekit.net/lwo8cgl.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    <script src="//d2hw98731ell8t.cloudfront.net/assets/js/jquery.min.js" type="text/javascript"></script>
     <script src="//maps.google.com/maps/api/js?libraries=geometry,places&sensor=false" type="text/javascript"></script>
     <meta name="copyright" content="Copyright Maccery.com 2014">
     <meta name="author" content="Maccery.com">
@@ -16,7 +15,7 @@
     <meta name="Revisit-after" content="1 Days">
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:image" content="/assets/images/ecfs-logo.png">
+    <meta property="og:image" content="/assets/img/ecfs-fb.png">
     <meta property="og:title" content="<?= $title ?>">
     <meta property="og:description" content="<?= $description ?>">
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
