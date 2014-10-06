@@ -15,11 +15,8 @@
     <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
     <meta property="og:title" content="<?= $title ?>">
     <meta property="og:description" content="<?= $description ?>">
-    <script type="text/javascript" src="//use.typekit.net/lwo8cgl.js"></script>
-    <script type="text/javascript">try {
-            Typekit.load();
-        } catch (e) {
-        }</script>
+    <script src="//use.typekit.net/xic2vkh.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
     <script src="//maps.google.com/maps/api/js?libraries=geometry,places&sensor=false" type="text/javascript"></script>
     <script type="text/javascript" src="/assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="/assets/js/site.js"></script>
@@ -33,7 +30,7 @@
     $detect = new Mobile_Detect();
     if (!($detect->isMobile() || $detect->isTablet())):
         ?>
-        <video autoplay loop poster="/assets/video/background.jpg" id="background" muted="true">
+        <video loop poster="/assets/video/background.jpg" id="background" muted="true">
             <source src="/assets/video/background.mp4" type="video/mp4">
             <source src="/assets/video/background.webm" type="video/webm">
         </video>
@@ -60,7 +57,7 @@
     <div id="splash" class="row text-center">
         <p><img width="190" src="/assets/img/ecfs-logo.png"></p>
 
-        <h1>ECFS 2015</h1>
+        <h1 style="font-family: 'jaf-bernino-sans-condensed';">ECFS 2015</h1>
 
         <h2>It's coming.</h2>
         <small><a href="#" id="more-info">More information</a></small>
