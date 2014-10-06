@@ -25,4 +25,14 @@
     <title><?= $title ?></title>
 </head>
 <body>
-<div class="container">
+    <div class="text-center frame">
+        <img width="150" src="/assets/img/ecfs-logo.png">
+    </div>
+    <div style="position: absolute; left: 0; width:70px; height: 100%; background-color: white;">
+        &nbsp;
+    </div>
+    <div style="position: absolute; right: 0; width:70px; height: 100%; background-color: white;">
+        &nbsp;
+    </div>
+
+    <div class="container" style="height: 100%;">
