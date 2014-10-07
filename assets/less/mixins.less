@@ -1,0 +1,37 @@
+.content-row(@color) {
+  @rgba: rgba(red(@color),green(@color),blue(@color),@content-transparency);
+  @argb: argb(@rgba);
+  background-color: @rgba;
+  filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{argb}, endColorstr=@{argb})";
+  -ms-filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{argb}, endColorstr=@{argb})";
+
+  margin-top: 50px;
+  p {
+    font-size: @font-size-base * 1.2;
+    font-weight: lighter;
+  }
+}
+
+.font-color (@color) when (lightness(@color) >= 30%) {
+  color: darken(@color, 48%);
+}
+
+.font-color (@color) when (lightness(@color) < 70%) {
+  color: lighten(@color, 78%);
+}
+
+.link-color (@color) when (lightness(@color) >= 50%) {
+  color: darken(@color, 30%);
+}
+
+.link-color (@color) when (lightness(@color) < 50%) {
+  color: lighten(@color, 30%);
+}
+
+.link-hover-color (@color) when (lightness(@color) >= 50%) {
+  color: darken(@color, 20%);
+}
+
+.link-hover-color (@color) when (lightness(@color) < 50%) {
+  color: lighten(@color, 20%);
+}
