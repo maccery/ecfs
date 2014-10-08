@@ -1,12 +1,12 @@
 <section id="charity" class="section" data-speed="6" data-type="background" data-offsetY="250">
     <article>
-        <div class="col-lg-12 content-row-2">
+        <div class="content-row color-row-2">
             <h1>Charity</h1>
         </div>
         <p></p>
 
-        <div class="col-lg-12 row">
-            <div class="col-sm-6 content-row-2">
+        <div class="content-row">
+            <div class="col-sm-6 color-row-2">
                 <p>
                     The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
                     best of fashion, art, and entertainment all for a good cause!
@@ -29,11 +29,11 @@
                 <img src="/assets/img/charity/water_aid.jpg" class="img-responsive">
             </div>
         </div>
-        <div class="col-lg-12 row">
+        <div class="content-row">
             <div class="col-sm-6">
                 <img src="/assets/img/charity/water_aid.jpg" class="img-responsive">
             </div>
-            <div class="col-sm-6 content-row-2">
+            <div class="col-sm-6 color-row-2">
                 <p>
                     The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
                     best of fashion, art, and entertainment all for a good cause!

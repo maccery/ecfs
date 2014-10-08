@@ -1,4 +1,4 @@
-.content-row(@color) {
+.color-row(@color) {
   @rgba: rgba(red(@color),green(@color),blue(@color),@content-transparency);
   @argb: argb(@rgba);
   background-color: @rgba;
@@ -34,4 +34,14 @@
 
 .link-hover-color (@color) when (lightness(@color) < 50%) {
   color: lighten(@color, 20%);
+}
+
+.rotate-text(@degrees)
+{
+  p {
+    -webkit-transform: rotate(@degrees);
+    -moz-transform: rotate(@degrees);
+    -o-transform: rotate(@degrees);
+    writing-mode: lr-tb;
+  }
 }

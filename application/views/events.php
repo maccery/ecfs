@@ -1,9 +1,9 @@
 <section id="events" class="section" data-speed="6" data-type="background" data-offsetY="250">
     <article>
-        <div class="col-lg-12 content-row-2" style="position: relative;">
+        <div class="content-row color-row-2">
             <h1>Events</h1>
         </div>
-        <div class="col-lg-12">
+        <div class="content-row">
             <div class="col-lg-3">HEY</div>
             <div class="col-lg-3">HEY</div>
             <div class="col-lg-3">HEY</div>
