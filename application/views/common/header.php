@@ -18,6 +18,7 @@
     <meta property="og:description" content="<?= $description ?>">
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+    <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="<?= $description ?>"/>
     <title><?= $title ?></title>
