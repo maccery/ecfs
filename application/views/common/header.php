@@ -25,9 +25,15 @@
     <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-<div class="frame container text-center">
-    <ul class="list list-unstyled list-inline">
-        <li style="position: absolute;"><a href="#welcome"><img src="/assets/img/ecfs-logo.png" width="100"></a></li>
-    </ul>
+<div class="frame text-center">
+        <div style="position: absolute;" class="pull-right">
+            <ul class="list list-unstyled list-inline">
+                <li><a href="our_story">Our story</a></li>
+                <li><a href="events">Events</a></li>
+                <li><a href="teams">Team</a></li>
+            </ul>
+        </div>
+        <div class="text-center"><img style="position: relative; left: 10px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="100"></a></div>
+
 </div>
     <div id="main" role="main" class="container text-center">

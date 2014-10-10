@@ -1,5 +1,7 @@
-<section>
+<section id="our-story">
     <article>
+        <div class="color-row-1 content-row" id="cover">
+        </div>
         <div class="color-row-1 content-row">
             <h1>Our Story</h1>
         </div>
