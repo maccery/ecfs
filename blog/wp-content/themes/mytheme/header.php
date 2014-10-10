@@ -37,6 +37,7 @@
 <div id="main" role="main" class="container" style="padding-top: 0px; margin-top: 0px;">
     <section>
         <div class="col-lg-9">
-            <div class="row">
+            <div class="color-row-1 row">
                 <h1>Blog</h1>
             </div>
+            <!-- end header -->
