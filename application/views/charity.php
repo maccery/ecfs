@@ -1,10 +1,15 @@
 <section id="our-story">
     <article>
+        <img src="/assets/img/charity/charities_drawing.png" style="position: absolute; right: -300px; top: 20px; z-index:-1;" width="700">
         <div class="color-row-1 content-row">
             <h1>Charity</h1>
         </div>
         <div class="col-lg-12 color-row-1">
             <div class="content-row row">
+
+                <div class="col-sm-6">
+                    <div id="cover"></div>
+                </div>
                 <div class="col-sm-6 color-row-1">
                     <h2>SAMH</h2>
                     <p>
@@ -25,14 +30,8 @@
                         For any questions or more information please email s.biglari@edinburghcharityfashionshow.org
                     </p>
                 </div>
-                <div class="col-sm-6">
-                    <div id="cover"></div>
-                </div>
             </div>
             <div class="content-row row">
-                <div class="col-sm-6">
-                    <div id="cover"></div>
-                </div>
                 <div class="col-sm-6 color-row-1">
                     <h2>Elephant</h2>
                     <p>
@@ -52,6 +51,9 @@
                     <p>
                         For any questions or more information please email s.biglari@edinburghcharityfashionshow.org
                     </p>
+                </div>
+                <div class="col-sm-6">
+                    <div id="cover"></div>
                 </div>
             </div>
         </div>
