@@ -25,12 +25,9 @@
     <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-<div class="frame frame-top">
-    <div class="container text-center">
-        <div  class="text-center" style="position: absolute; left: 50%; top: 0;"></P></div>
-        <ul class="list list-unstyled list-inline">
-            <li style="position: absolute;"><a href="#welcome"><img src="/assets/img/ecfs-logo.png" width="100"></a></li>
-        </ul>
-    </div>
+<div class="frame container text-center">
+    <ul class="list list-unstyled list-inline">
+        <li style="position: absolute;"><a href="#welcome"><img src="/assets/img/ecfs-logo.png" width="100"></a></li>
+    </ul>
 </div>
-    <div id="main" role="main" class="container">
+    <div id="main" role="main" class="container text-center">

@@ -1,9 +1,9 @@
-<section id="our-story" class="section" data-speed="4" data-type="background">
+<section>
     <article>
         <div class="color-row-1 content-row">
             <h1>Our Story</h1>
         </div>
-        <div class="col-lg-6 color-row-1">
+        <div class="col-lg-12 color-row-1">
             <div class="content-row">
                 <p>
                     The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
