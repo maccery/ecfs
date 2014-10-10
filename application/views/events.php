@@ -1,10 +1,9 @@
-<section id="events" class="section" data-speed="6" data-type="background" data-offsetY="250">
-    <div class="logo" data-type="sprite" data-offsetY="1250" data-Xposition="25%" data-speed="2"></div>
+<section>
     <article>
-        <div class="col-lg-12">
-            <h1>About</h1>
+        <div class="row">
+            <h1>Events</h1>
         </div>
-        <div class="col-lg-12">
+        <div class="row">
             <div class="col-lg-3">HEY</div>
             <div class="col-lg-3">HEY</div>
             <div class="col-lg-3">HEY</div>

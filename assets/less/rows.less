@@ -1,36 +1,105 @@
-.content-row-1
+.row
 {
-  .content-row(@color-1);
+  .color-row(@color-1);
   .font-color(@color-1);
   a { .link-color(@color-1); }
   a:hover { .link-hover-color(@color-1); }
 }
 
-.content-row-2
-{
-  .content-row(@color-2);
-  .font-color(@color-2);
-  a { .link-color(@color-2); }
-  a:hover { .link-hover-color(@color-2); }
-}
+body {
+  p,div {
+    font-weight: 300;
+  }
+  h1 {
+    font-weight: @font-weight-h1;
+  }
+  a {
+    text-decoration: underline;
+  }
 
-.content-row-3
-{
-  .content-row(@color-3);
-  .font-color(@color-3);
-  a { .link-color(@color-3); }
-  a:hover { .link-hover-color(@color-3); }
-}
+  #header {
+    font-family: @headings-font-family;
+    padding: 10px;
+  }
 
-.content-row-white
-{
-  .content-row(white);
-  .font-color(white);
-  a { .link-color(white); }
-  a:hover { .link-hover-color(white); }
+  section {
+    overflow: hidden;
+  }
+
 }
 
 .row
 {
-  margin-top: 50px;
+
+
 }
+
+video#background {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+  background: url('/assets/video/background.jpg') no-repeat;
+  background-size: cover;
+}
+
+body {
+  color: white;
+  background-size:cover;
+
+  h1 {
+    font-family: @headings-large-font-family;
+  }
+
+  #main {
+    margin-top: @frame-thickness;
+  }
+
+  #our-story {
+    .cover {
+      background-image: url('/assets/img/slide1.jpg');
+    }
+  }
+  #designers {
+    .cover {
+      background-image: url('/assets/img/designers/designers_drawing.png');
+    }
+  }
+
+}
+#blog-cover {
+  background-image: url('/assets/img/designers/designers_drawing.png');
+}
+.cover {
+  width: 100%; height: 350px;
+  border: 2px solid @color-1;
+  outline: 2px solid @color-2;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+#splash {
+  margin: 10px;
+}
+
+.vertical-center {
+  display:table-cell;
+  vertical-align:middle;
+  float:none;
+}
+
+
+
+@media (max-width: 640px)
+{
+  h1 {
+    font-size: (@font-size-h1*0.7);
+  }
+  .row {
+    p {
+      padding-left:  10px;
+      padding-right: 10px;
+      font-size:     (@font-size-base*0.9);
+    }
+  }
+}
+

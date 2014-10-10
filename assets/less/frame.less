@@ -1,4 +1,21 @@
 .frame {
-  background-color: @frame-bg-color;
+  text-align: center;
+  position: fixed;
+  float: left;
+  top: 0;
+  width: 100%;
+  height: @frame-thickness;
+  z-index: 4;
   color: @frame-color;
+  margin: 0;
+  list-style-type: none;
+
+  box-shadow:    0 0 @frame-shadow-thickness rgba(0, 0, 0, @frame-shadow-opacity);
+
+  /* Transparency stuff */
+  @rgba: rgba(red(@frame-bg-color),green(@frame-bg-color),blue(@frame-bg-color),@frame-opacity);
+  @argb: argb(@rgba);
+  background-color: @rgba;
+  filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{argb}, endColorstr=@{argb})";
+  -ms-filter: ~"progid:DXImageTransform.Microsoft.gradient(startColorstr=@{argb}, endColorstr=@{argb})";
 }
