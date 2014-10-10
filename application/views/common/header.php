@@ -30,9 +30,16 @@
             <ul class="list list-unstyled list-inline">
                 <li><a href="our_story">Our story</a></li>
                 <li><a href="events">Events</a></li>
-                <li><a href="teams">Team</a></li>
+                <li><a href="events">Design</a></li>
             </ul>
         </div>
+    <div style="position: absolute; right: 0;" class="pull-right">
+        <ul class="list list-unstyled list-inline">
+            <li><a href="charity">Charity</a></li>
+            <li><a href="sponsors">Sponsors</a></li>
+            <li><a href="teams">Team</a></li>
+        </ul>
+    </div>
         <div class="text-center"><img style="position: relative; left: 10px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="100"></a></div>
 
 </div>
