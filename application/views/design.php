@@ -1,15 +1,28 @@
 <section id="designers">
     <article>
-        <div class="color-row-1 content-row cover">
+        <div class="cover">
         </div>
-        <div class="color-row-1 content-row">
+        <div class="row">
             <h1>Designers</h1>
         </div>
-        <div class="col-lg-12 color-row-1">
-            <div class="content-row">
-                <p>
-                    Diane Von Furstenburg | Mark Fast | Rasha Swais | 8 Cub | Walker Slater | Those were the days vintage | ALC | Foxhunt menswear | Ben Crane | Jennifer Morris | Alice Temperley | Eleanor Amoroso | Amanda Wakeley | Joseph | Morwenna Darwell | Pocket London | Hentsch Man | John Rocha | 21st Century Kilts | Kelly Love | Naomi Barber Rodgers | Olivia Hearnshaw | A_S_R | Godiva | Jennifer Morris | Xianfen Gu | Fifi Wilson | Leon Max | Melissa Thwaites fable | Philip Jacobson | Sophie Wetherell | Katherine Weir</p>
-            </div>
+        <div class="row">
+            <p>
+                The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
+                best of fashion, art, and entertainment all for a good cause!
+            </p>
+
+            <p>
+                The ECFS campaign runs throughout the year culminating in our annual fashion show in March. ECFS has
+                raised over a quarter of a million pounds for charities throughout the United Kingdom.
+            </p>
+
+            <p>
+                Stay tuned for more information on our events, tickets, and how to get involved!
+            </p>
+
+            <p>
+                For any questions or more information please email
+            </p>
         </div>
     </article>
 </section>

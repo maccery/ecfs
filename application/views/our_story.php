@@ -1,12 +1,11 @@
 <section id="our-story">
     <article>
-        <div class="color-row-1 content-row cover">
+        <div class="cover">
         </div>
-        <div class="color-row-1 content-row">
+        <div class="row">
             <h1>Our Story</h1>
         </div>
-        <div class="col-lg-12 color-row-1">
-            <div class="content-row">
+        <div class="row">
                 <p>
                     The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
                     best of fashion, art, and entertainment all for a good cause!
@@ -22,9 +21,8 @@
                 </p>
 
                 <p>
-                    For any questions or more information please email s.biglari@edinburghcharityfashionshow.org
+                    For any questions or more information please email
                 </p>
-            </div>
         </div>
     </article>
 </section>

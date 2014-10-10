@@ -1,15 +1,13 @@
 <section>
     <article>
-        <div class="color-row-1 content-row">
+        <div class="row">
             <h1>Events</h1>
         </div>
-        <div class="col-lg-12 color-row-1">
-            <div class="content-row">
-                <div class="col-lg-3">HEY</div>
-                <div class="col-lg-3">HEY</div>
-                <div class="col-lg-3">HEY</div>
-                <div class="col-lg-3">HEY</div>
-            </div>
+        <div class="row">
+            <div class="col-lg-3">HEY</div>
+            <div class="col-lg-3">HEY</div>
+            <div class="col-lg-3">HEY</div>
+            <div class="col-lg-3">HEY</div>
         </div>
     </article>
 </section>
