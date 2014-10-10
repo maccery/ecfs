@@ -29,18 +29,8 @@
     <div class="container text-center">
         <div  class="text-center" style="position: absolute; left: 50%; top: 0;"></P></div>
         <ul class="list list-unstyled list-inline">
-            <li><a href="#events"><button class="btn">Events</button></a></li>
             <li style="position: absolute;"><a href="#welcome"><img src="/assets/img/ecfs-logo.png" width="100"></a></li>
-            <li><a href="#sponsors"><button class="btn">Sponsors</button></a></li>
         </ul>
     </div>
-</div>
-<div class="frame frame-left">
-    <p>hey</p>
-</div>
-<div class="frame frame-right">
-    <p>
-        hey
-    </p>
 </div>
     <div id="main" role="main" class="container">
