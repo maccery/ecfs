@@ -42,4 +42,19 @@
 
             return $graphObject->asArray();
         }
+
+
+        public function getPhotos($page_id)
+        {
+            $request = new FacebookRequest(
+                $this->session,
+                'GET',
+                '/' . $page_id . '/photos/uploaded'
+            );
+            $response = $request->execute();
+            $graphObject = $response->getGraphObject();
+
+            return $graphObject->getProperty('data')->asArray();
+        }
+
     }

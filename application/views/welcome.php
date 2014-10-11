@@ -5,9 +5,19 @@
         });
     })(jQuery);
 </script>
+<style>
+    .img {
+        position: relative;
+        float: left;
+        width: 600px;
+        height: 600px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
 <ul class="list list-unstyled list-inline" id="scroller">
-    <li><img height="500" src="/assets/img/slide1.jpg"></li>
-    <li><img height="500" src="/assets/img/slide1.jpg"></li>
-    <li><img height="500" src="/assets/img/slide1.jpg"></li>
-    <li><img height="500" src="/assets/img/slide1.jpg"></li>
+    <? foreach($photos as $photo): ?>
+    <li class="img" style="background-image:url('<?= $photo->source ?>');"></li>
+    <? endforeach ?>
 </ul>
