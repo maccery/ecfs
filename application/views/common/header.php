@@ -44,4 +44,4 @@
         <div class="text-center"><img style="position: relative; left: 10px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="100"></a></div>
 
 </div>
-    <div id="main" role="main" class=" text-center">
+    <div id="main" role="main" class="container text-center">

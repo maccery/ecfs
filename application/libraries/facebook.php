@@ -22,11 +22,24 @@
             $request = new FacebookRequest(
                 $this->session,
                 'GET',
-                '/386828244687495/events'
+                '/' . $page_id . '/events'
             );
             $response = $request->execute();
             $graphObject = $response->getGraphObject();
 
-            return $graphObject;
+            return $graphObject->getProperty('data')->asArray();
+        }
+
+        public function getEvent($events_id)
+        {
+            $request = new FacebookRequest(
+                $this->session,
+                'GET',
+                '/' . $events_id
+            );
+            $response = $request->execute();
+            $graphObject = $response->getGraphObject();
+
+            return $graphObject->asArray();
         }
     }
