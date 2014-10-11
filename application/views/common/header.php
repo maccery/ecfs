@@ -19,6 +19,7 @@
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+    <script src="/assets/js/marquee.js"></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="<?= $description ?>"/>
     <title><?= $title ?></title>
@@ -43,4 +44,4 @@
         <div class="text-center"><img style="position: relative; left: 10px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="100"></a></div>
 
 </div>
-    <div id="main" role="main" class="container text-center">
+    <div id="main" role="main" class=" text-center">

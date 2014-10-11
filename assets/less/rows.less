@@ -1,20 +1,24 @@
 .row
 {
-  .color-row(@color-1);
-  .font-color(@color-1);
-  a { .link-color(@color-1); }
-  a:hover { .link-hover-color(@color-1); }
+  .color-row(@main-color);
+  .font-color(@main-color);
+  a { .link-color(@main-color); }
+  a:hover { .link-hover-color(@main-color); }
 }
 
 body {
+  background-color: @background-color;
   p,div {
     font-weight: 300;
   }
   h1 {
     font-weight: @font-weight-h1;
   }
-  a {
-    text-decoration: underline;
+  a, a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    color: black;
   }
 
   #header {
