@@ -34,7 +34,7 @@
                 <li><a href="events">Design</a></li>
             </ul>
         </div>
-    <div style="position: absolute; right: 0;" class="pull-right" id="header>
+    <div style="position: absolute; right: 0;" class="pull-right" id="header">
         <ul class="list list-unstyled list-inline">
             <li><a href="charity">Charity</a></li>
             <li><a href="sponsors">Sponsors</a></li>

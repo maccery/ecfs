@@ -57,4 +57,31 @@
             return $graphObject->getProperty('data')->asArray();
         }
 
+        public function getAlbums($page_id)
+        {
+            $request = new FacebookRequest(
+                $this->session,
+                'GET',
+                '/' . $page_id . '/albums'
+            );
+            $response = $request->execute();
+            $graphObject = $response->getGraphObject();
+
+            return $graphObject->getProperty('data')->asArray();
+        }
+
+        public function getAlbum($album_id)
+        {
+            $request = new FacebookRequest(
+                $this->session,
+                'GET',
+                '/' . $album_id . '/photos'
+            );
+            $response = $request->execute();
+            $graphObject = $response->getGraphObject();
+
+            return $graphObject->getProperty('data')->asArray();
+        }
+
+
     }

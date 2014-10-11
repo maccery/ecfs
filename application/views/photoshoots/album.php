@@ -17,7 +17,7 @@
     }
 </style>
 <ul class="list list-unstyled list-inline" id="scroller">
-    <? foreach($photos as $photo): ?>
-        <li class="img" style="background-image:url('<?= $photo->source ?>');"></li>
+    <? foreach($sources as $source): ?>
+        <li class="img" style="background-image:url('<?= $source ?>');"></li>
     <? endforeach ?>
 </ul>
