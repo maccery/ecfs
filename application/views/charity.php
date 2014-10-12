@@ -1,56 +1,37 @@
-<section id="our-story">
+<section id="charity">
     <article>
         <div class="row">
             <h1>Charity</h1>
         </div>
+        <img src="/assets/img/charity/elephant_sketch.png" width="300" style="position: absolute; top: 120px; right: 0px;">
         <div class="row">
             <div class="col-sm-6">
-                <div class="cover"></div>
+                <div class="cover" id="samh"></div>
             </div>
             <div class="col-sm-6">
                 <h2>SAMH</h2>
-                <p>
-                    The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
-                    best of fashion, art, and entertainment all for a good cause!
-                </p>
 
-                <p>
-                    The ECFS campaign runs throughout the year culminating in our annual fashion show in March. ECFS has
-                    raised over a quarter of a million pounds for charities throughout the United Kingdom.
-                </p>
+                <p>The Scottish Association for Mental Health is Scotland’s leading mental health charity- it focuses on
+                    raising awareness and providing help and information to support those suffering from mental health
+                    problems.</p>
 
-                <p>
-                    Stay tuned for more information on our events, tickets, and how to get involved!
-                </p>
-
-                <p>
-                    For any questions or more information please email s.biglari@edinburghcharityfashionshow.org
+                    <p>For more information visit:
+                    http://www.samh.org.uk/about.aspx
                 </p>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-6">
-                <h2>Elephant</h2>
-                <p>
-                    The Edinburgh Charity Fashion Show (ECFS) is a run by a team of dedicated students in order to bring the
-                    best of fashion, art, and entertainment all for a good cause!
-                </p>
+                <h2>Elephant Family</h2>
+                <p>Elephant Family, founded in 2002, is a charitable organization dedicated to saving the Asian
+                    elephant. Over the last 12 years it has invested over £6 million in securing wildlife habitat,
+                    relocating endangered local people as well as preventing conflict to save this iconic animal from
+                    extinction.</p>
 
-                <p>
-                    The ECFS campaign runs throughout the year culminating in our annual fashion show in March. ECFS has
-                    raised over a quarter of a million pounds for charities throughout the United Kingdom.
-                </p>
-
-                <p>
-                    Stay tuned for more information on our events, tickets, and how to get involved!
-                </p>
-
-                <p>
-                    For any questions or more information please email s.biglari@edinburghcharityfashionshow.org
-                </p>
+                    <p>For more information visit: http://www.elephantfamily.org/who-we-are</p>
             </div>
             <div class="col-sm-6">
-                <div class="cover"></div>
+                <div class="cover" id="elephant"></div>
             </div>
         </div>
     </article>

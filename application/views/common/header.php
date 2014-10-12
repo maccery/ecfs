@@ -19,6 +19,7 @@
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+    <script src="/assets/js/marquee.js"></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="<?= $description ?>"/>
     <title><?= $title ?></title>
@@ -28,13 +29,15 @@
 <div class="frame text-center">
         <div style="position: absolute;" class="pull-right" id="header">
             <ul class="list list-unstyled list-inline">
-                <li><a href="our_story">Our story</a></li>
+                <li><a href="our-story">Our story</a></li>
                 <li><a href="events">Events</a></li>
-                <li><a href="events">Design</a></li>
+                <li><a href="design">Design</a></li>
+                <li><a href="photoshoots">Photoshoots</a></li>
             </ul>
         </div>
-    <div style="position: absolute; right: 0;" class="pull-right" id="header>
+    <div style="position: absolute; right: 0;" class="pull-right" id="header">
         <ul class="list list-unstyled list-inline">
+            <li><a href="blog">Blog</a></li>
             <li><a href="charity">Charity</a></li>
             <li><a href="sponsors">Sponsors</a></li>
             <li><a href="teams">Team</a></li>

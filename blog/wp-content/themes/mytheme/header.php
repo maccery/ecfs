@@ -29,7 +29,7 @@
     <div style="position: absolute;" class="pull-right">
         <div style="position: absolute;" class="pull-right" id="header">
             <ul class="list list-unstyled list-inline">
-                <li><a href="/home">Home</a></li>
+                <li><a href="/welcome">Home</a></li>
             </ul>
         </div>
     </div>
