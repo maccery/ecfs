@@ -3,6 +3,7 @@
         <div class="row">
             <h1>Charity</h1>
         </div>
+        <img src="/assets/img/charity/elephant_sketch.png" width="300" style="position: absolute; top: 120px; right: 0px;">
         <div class="row">
             <div class="col-sm-6">
                 <div class="cover" id="samh"></div>
