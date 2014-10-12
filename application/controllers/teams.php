@@ -7,7 +7,7 @@
             $data['description'] = 'Edinburgh Charity Fashion Show (ECFS) 2015 - coming soon.';
 
             $team = array(
-                'alex', 'ayesha', 'charlotte', 'ed', 'immy', 'kate', 'leslie', 'louisa', 'meri', 'mia', 'mylo', 'tabby',
+                'alex', 'ayesha', 'charlotte', 'ed', 'immy', 'kate', 'leslie', 'georgie', 'meri', 'mia', 'mylo', 'tabby',
                 'tom', 'xan'
             );
             /* Randomise team order */

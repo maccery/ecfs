@@ -5,7 +5,7 @@
                 <article>
                     <div class="row">
                         <h2><?php the_title(); ?></h2>
-                        <small><h5>Written by Tom Macmichael - <?php the_time('F jS, Y') ?></h5></small>
+                        <small><h5><?php the_time('F jS, Y') ?></h5></small>
                         <p><?php the_content(__('(more...)')); ?></p>
                     </div>
                 </article>
