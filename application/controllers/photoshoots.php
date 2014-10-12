@@ -17,10 +17,10 @@
             print_r($this->facebook->getAlbum($album_id));
             foreach ($photos as $photo)
             {
-                $sources[] =
+                $sources[] = $photo->source;
             }
 
-            $data['photos'] = $this->load->view('welcome', $album, TRUE);
+            $data['photos'] = $this->load->view('welcome', $sources, TRUE);
 
             $data['albums'] = $albums;
 
