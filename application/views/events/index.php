@@ -1,5 +1,7 @@
-<section>
+<section id="events">
     <article>
+        <div class="cover">
+        </div>
         <div class="row">
             <h1>Events</h1>
         </div>

@@ -22,22 +22,24 @@
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="<?= $description ?>"/>
     <title><?php wp_title( '|', true, 'right' ); ?></title>
-    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
 </head>
 <body>
-<div class="cover" id="blog-cover">
+<div class="cover text-center" id="blog-cover">
     <div style="position: absolute;" class="pull-right">
-        <div style="position: absolute;" class="pull-right" id="header">
+        <div style="position: absolute; width: 100%;" class="pull-right" id="header">
             <ul class="list list-unstyled list-inline">
                 <li><a href="/welcome">Home</a></li>
             </ul>
         </div>
     </div>
+    <img style="padding-top: 35px;" src="/assets/img/ecfs-logo.png" width="250">
 </div>
 <div id="main" role="main" class="container" style="padding-top: 0px; margin-top: 0px;">
     <section>
-        <div class="col-lg-9">
-            <div class="color-row-1 row">
-                <h1>Blog</h1>
+        <div class="col-lg-3 row">
+            <div class="text-center"><img src="/assets/img/blog/elephant2.png" width="150">
             </div>
+        </div>
+        <div class="col-lg-6">
             <!-- end header -->

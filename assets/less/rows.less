@@ -2,8 +2,8 @@
 {
   .color-row(@main-color);
   .font-color(@main-color);
-  a { .link-color(@main-color); }
-  a:hover { .link-hover-color(@main-color); }
+  a { .font-color(@main-color) }
+  a:hover { .font-color(@main-color) }
 }
 
 body {
@@ -26,9 +26,6 @@ body {
     padding: 10px;
   }
 
-  section {
-    overflow: hidden;
-  }
 
 }
 
@@ -57,7 +54,12 @@ body {
   #main {
     margin-top: @frame-thickness;
   }
-
+  #events {
+    .cover {
+      background-image: url('/assets/img/events/eventsdrawing.png');
+      height: 600px;
+    }
+  }
   #our-story {
     .cover {
       background-image: url('/assets/img/slide1.jpg');
@@ -76,9 +78,17 @@ body {
 #charity {
   #samh {
     background-image: url('/assets/img/charity/samh.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
   }
   #elephant {
     background-image: url('/assets/img/charity/ef-logo.gif');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
   }
 
 }

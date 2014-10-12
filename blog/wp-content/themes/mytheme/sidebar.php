@@ -1,5 +1,3 @@
-<div class="text-center"><img src="/assets/img/blog/elephant2.png" width="150">
-</div>
 <div class="text-center">
     <p><?php _e('Categories'); ?></p>
     <ul class="list list-unstyled">

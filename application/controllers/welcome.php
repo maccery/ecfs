@@ -9,10 +9,16 @@
 
             /* Get photos from Facebook */
             $this->load->library('facebook');
-            $photos = $this->facebook->getPhotos('386828244687495');
-            $data['photos'] = $photos;
+            $photos = $this->facebook->getAlbum('606064639430520');
+            foreach ($photos as $photo)
+            {
+                $photo = $photo->images[0];
+                $sources[] = $photo->source;
+            }
+
+            $data['sources'] = $sources;
             $this->load->view('common/header', $data);
-            $this->load->view('welcome', $data);
+            $data['photos'] = $this->load->view('photoshoots/album', $data);
             $this->load->view('common/footer');
         }
 

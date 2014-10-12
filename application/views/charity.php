@@ -20,6 +20,7 @@
                 </p>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-sm-6">
                 <h2>Elephant Family</h2>

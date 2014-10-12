@@ -1,7 +1,9 @@
 <script type="text/javascript">
     (function($) {
         $(function() { //on DOM ready
-            $("#scroller").simplyScroll();
+            $("#scroller").simplyScroll({
+                frameRate: 120
+            });
         });
     })(jQuery);
 </script>
