@@ -29,7 +29,7 @@
 <div class="frame text-center">
         <div style="position: absolute;" class="pull-right" id="header">
             <ul class="list list-unstyled list-inline">
-                <li><a href="our_story">Our story</a></li>
+                <li><a href="our-story">Our story</a></li>
                 <li><a href="events">Events</a></li>
                 <li><a href="design">Design</a></li>
                 <li><a href="photoshoots">Photoshoots</a></li>
