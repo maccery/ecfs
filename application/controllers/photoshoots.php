@@ -13,7 +13,7 @@
 
         private function photos($album_id = NULL)
         {
-            $data['title'] = 'ECFS 2015 - Edinburgh Charity Fashion Show';
+            $data['title'] = 'Photoshoots | ECFS 2015 - Edinburgh Charity Fashion Show';
             $data['description'] = 'Edinburgh Charity Fashion Show (ECFS) 2015 - coming soon.';
 
             /* Get photo albums from Facebook */

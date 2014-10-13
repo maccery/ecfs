@@ -1,5 +1,8 @@
 <section id="sponsors">
     <article>
+        <div class="cover">
+            <img src="/assets/img/sponsors/cover.JPG" class="img-responsive">
+        </div>
         <div class="row">
             <h1>Sponsors</h1>
         </div>

@@ -14,32 +14,29 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
-    <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); ?>">
+    <meta property="og:title" content="<?php wp_title(''); ?> | Edinburgh Charity Fashion Show 2015 Blog">
     <meta property="og:description" content="<?= $description ?>">
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
-    <meta name="description" content="<?= $description ?>"/>
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <meta name="description" content="Official blog of Edinburgh Charity Fashion Show 2015."/>
+    <title><?php wp_title(''); ?> | ECFS 2015 Blog - Edinburgh Charity Fashion Show</title>
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
 </head>
 <body>
-<div class="cover text-center" id="blog-cover">
-    <div style="position: absolute;" class="pull-right">
-        <div style="position: absolute; width: 100%;" class="pull-right" id="header">
-            <ul class="list list-unstyled list-inline">
-                <li><a href="/welcome">Home</a></li>
-            </ul>
-        </div>
+<div class="cover text-center">
+    <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
+        <img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive">
     </div>
-    <img style="padding-top: 35px;" src="/assets/img/ecfs-logo.png" width="250">
+    <img src="/assets/img/blog/cover.png" class="img-responsive">
 </div>
-<div id="main" role="main" class="container" style="padding-top: 0px; margin-top: 0px;">
-    <section>
-        <div class="col-lg-3 row">
+<div id="main" role="main" class="container" style="margin-top: 0px; width: 100%;">
+    <section style=" width: 100%;">
+        <div class="col-sm-3 row">
             <div class="text-center"><img src="/assets/img/blog/elephant2.png" width="150">
+                <p><small><i>"The elephant in the room"</i></small></p>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-sm-6">
             <!-- end header -->
