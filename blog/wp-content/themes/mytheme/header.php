@@ -14,14 +14,14 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
-    <meta property="og:title" content="<?php wp_title( '|', true, 'right' ); ?>">
+    <meta property="og:title" content="<?php wp_title(''); ?> | Edinburgh Charity Fashion Show 2015 Blog">
     <meta property="og:description" content="<?= $description ?>">
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
-    <meta name="description" content="<?= $description ?>"/>
-    <title><?php wp_title( '|', true, 'right' ); ?></title>
+    <meta name="description" content="Official blog of Edinburgh Charity Fashion Show 2015."/>
+    <title><?php wp_title(''); ?> | ECFS 2015 Blog - Edinburgh Charity Fashion Show</title>
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
 </head>
 <body>

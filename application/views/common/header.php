@@ -44,14 +44,14 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  style="z-index:2;">
                 <ul class="nav navbar-nav">
                     <li><a href="/our-story">Our Story</a></li>
-                    <li><a href="/charity">Charities</a></li>
-                    <li><a href="/design">Designers</a></li>
+                    <li><a href="/charities">Charities</a></li>
+                    <li><a href="/designers">Designers</a></li>
                     <li><a href="/sponsors">Sponsors</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/events">Events</a></li>
-                    <li><a href="/teams">Team</a></li>
+                    <li><a href="/team">Team</a></li>
                     <li><a href="/photoshoots">Photoshoots</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
