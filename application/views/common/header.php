@@ -31,7 +31,7 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
-                <img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive">
+                <a href="/welcome"><img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive"></a>
                 </div>
             <div class="navbar-header" style="z-index:2;">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

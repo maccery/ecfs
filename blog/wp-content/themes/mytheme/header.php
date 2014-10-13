@@ -25,10 +25,37 @@
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
 </head>
 <body>
+<nav class="navbar navbar-default" role="navigation" style="height: 30px;">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
+            <a href="/welcome"><img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive"></a>
+        </div>
+        <div class="navbar-header" style="z-index:2;">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  style="z-index:2;">
+            <ul class="nav navbar-nav">
+                <li><a href="/our-story">Our Story</a></li>
+                <li><a href="/charities">Charities</a></li>
+                <li><a href="/designers">Designers</a></li>
+                <li><a href="/sponsors">Sponsors</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="/blog">Blog</a></li>
+                <li><a href="/events">Events</a></li>
+                <li><a href="/team">Team</a></li>
+                <li><a href="/photoshoots">Photoshoots</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
 <div class="cover text-center">
-    <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
-        <img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive">
-    </div>
     <img src="/assets/img/blog/cover.png" class="img-responsive">
 </div>
 <div id="main" role="main" class="container" style="margin-top: 0px; width: 100%;">
