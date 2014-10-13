@@ -37,9 +37,9 @@
 </div>
 <div id="main" role="main" class="container" style="padding-top: 0px; margin-top: 0px;">
     <section>
-        <div class="col-lg-3 row">
+        <div class="col-sm-3 row">
             <div class="text-center"><img src="/assets/img/blog/elephant2.png" width="150">
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-sm-6">
             <!-- end header -->

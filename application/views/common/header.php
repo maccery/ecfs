@@ -33,6 +33,7 @@
                 <li><a href="events">Events</a></li>
                 <li><a href="design">Design</a></li>
                 <li><a href="photoshoots">Photoshoots</a></li>
+                <li><a href="film">Film</a></li>
             </ul>
         </div>
     <div style="position: absolute; right: 0;" class="pull-right" id="header">
@@ -43,7 +44,7 @@
             <li><a href="teams">Team</a></li>
         </ul>
     </div>
-        <div class="text-center"><img style="position: relative; left: 10px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="100"></a></div>
+        <div class="text-center"><img style="position: relative; left: 5px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="150"></a></div>
 
 </div>
     <div id="main" role="main" class="container text-center">
