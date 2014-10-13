@@ -25,15 +25,10 @@
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
 </head>
 <body>
-<div class="cover text-center" id="blog-cover">
-    <div style="position: absolute;" class="pull-right">
-        <div style="position: absolute; width: 100%;" class="pull-right" id="header">
-            <ul class="list list-unstyled list-inline">
-                <li><a href="/welcome">Home</a></li>
-            </ul>
-        </div>
-    </div>
-    <img style="padding-top: 35px;" src="/assets/img/ecfs-logo.png" width="250">
+<div class="cover text-center">
+
+    <img src="/assets/img/blog/cover.png" class="img-responsive">
+    <img style="position: absolute; top: 0; left: 50%; padding-top: 35px;" src="/assets/img/ecfs-logo.png" width="200">
 </div>
 <div id="main" role="main" class="container" style="padding-top: 0px; margin-top: 0px;">
     <section>
