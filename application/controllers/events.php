@@ -13,6 +13,8 @@
             foreach ($events as $event)
             {
                 $event = $this->facebook->getEvent($event->id);
+                $event['start_time'] = date('l NS F Y H:i', strtotime($event['start_time']));
+                $event['end_time'] = date('l NS F Y H:i', strtotime($event['end_time']));
                 $event_views[] = $this->load->view('events/event', $event, TRUE);
             }
 

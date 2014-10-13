@@ -25,13 +25,23 @@
     <meta name="description" content="<?= $description ?>"/>
     <title><?= $title ?></title>
     <link rel="stylesheet" href="/assets/css/site.css">
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55663578-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
-                <img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive">
+                <a href="/welcome"><img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive"></a>
                 </div>
             <div class="navbar-header" style="z-index:2;">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

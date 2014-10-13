@@ -1,5 +1,5 @@
 <div class="row">
-    <h2><?= $name ?> at <?= $location ?></h2>
+    <h2><a target="_blank" href="http://facebook.com/events/<?= $id?>"><?= $name ?> at <?= $location ?></a></h2>
     <p><small><?= $start_time ?> - <?= $end_time?></small></p>
     <p><?= $description ?></p>
 </div>

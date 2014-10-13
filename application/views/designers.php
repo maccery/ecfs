@@ -14,6 +14,8 @@
                 Kelly Love | Naomi Barber Rodgers | Olivia Hearnshaw | A_S_R | Godiva | Jennifer Morris | Xianfen Gu |
                 Fifi Wilson | Leon Max | Melissa Thwaites fable | Philip Jacobson | Sophie Wetherell | Katherine
                 Weir</p>
+
+            <p><a href="mailto:designers@edinburghcharityfashionshow.org">designers@edinburghcharityfashionshow.org</a></p>
         </div>
     </article>
 </section>
