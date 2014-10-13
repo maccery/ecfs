@@ -26,14 +26,16 @@
 </head>
 <body>
 <div class="cover text-center">
-
+    <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
+        <img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive">
+    </div>
     <img src="/assets/img/blog/cover.png" class="img-responsive">
-    <img style="position: absolute; top: 0; left: 50%; padding-top: 35px;" src="/assets/img/ecfs-logo.png" width="200">
 </div>
-<div id="main" role="main" class="container" style="padding-top: 0px; margin-top: 0px;">
-    <section>
+<div id="main" role="main" class="container" style="margin-top: 0px; width: 100%;">
+    <section style=" width: 100%;">
         <div class="col-sm-3 row">
             <div class="text-center"><img src="/assets/img/blog/elephant2.png" width="150">
+                <p><small><i>"The elephant in the room"</i></small></p>
             </div>
         </div>
         <div class="col-sm-6">
