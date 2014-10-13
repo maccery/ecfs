@@ -19,6 +19,7 @@
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
+    <script src='/assets/js/bootstrap.min.js'></script>
     <script src="/assets/js/marquee.js"></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="<?= $description ?>"/>
@@ -26,24 +27,34 @@
     <link rel="stylesheet" href="/assets/css/site.css">
 </head>
 <body>
-<div class="frame text-center">
-        <div style="position: absolute;" class="pull-right" id="header">
-            <ul class="list list-unstyled list-inline">
-                <li><a href="our-story">Our story</a></li>
-                <li><a href="events">Events</a></li>
-                <li><a href="design">Design</a></li>
-                <li><a href="photoshoots">Photoshoots</a></li>
-            </ul>
-        </div>
-    <div style="position: absolute; right: 0;" class="pull-right" id="header">
-        <ul class="list list-unstyled list-inline">
-            <li><a href="blog">Blog</a></li>
-            <li><a href="charity">Charity</a></li>
-            <li><a href="sponsors">Sponsors</a></li>
-            <li><a href="teams">Team</a></li>
-        </ul>
-    </div>
-        <div class="text-center"><img style="position: relative; left: 10px; bottom: -40px;" src="/assets/img/ecfs-logo.png" width="100"></a></div>
-
-</div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
+                <img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive">
+                </div>
+            <div class="navbar-header" style="z-index:2;">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"  style="z-index:2;">
+                <ul class="nav navbar-nav">
+                    <li><a href="/our-story">Our Story</a></li>
+                    <li><a href="/charities">Charities</a></li>
+                    <li><a href="/designers">Designers</a></li>
+                    <li><a href="/sponsors">Sponsors</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/events">Events</a></li>
+                    <li><a href="/team">Team</a></li>
+                    <li><a href="/photoshoots">Photoshoots</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
     <div id="main" role="main" class="container text-center">

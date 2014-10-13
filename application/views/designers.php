@@ -1,6 +1,7 @@
 <section id="designers">
     <article>
         <div class="cover">
+            <img src="/assets/img/designers/designers_drawing.png" class="img-responsive">
         </div>
         <div class="row">
             <h1>Designers</h1>

@@ -1,6 +1,7 @@
 <section id="our-story">
     <article>
         <div class="cover">
+            <img src="/assets/img/our-story/cover.jpg" class="img-responsive">
         </div>
         <div class="row">
             <h1>Our Story</h1>
