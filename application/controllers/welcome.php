@@ -9,7 +9,7 @@
 
             /* Get photos from Facebook */
             $this->load->library('facebook');
-            $photos = $this->facebook->getAlbum('606064639430520');
+            $photos = $this->facebook->getAlbum('737865236250459');
             foreach ($photos as $photo)
             {
                 $photo = $photo->images[0];

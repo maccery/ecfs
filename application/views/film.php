@@ -1,6 +1,6 @@
 <section id="our-story">
     <article>
-        <div class="row">
+        <div class="row" style="padding-top: 80px;">
             <h1>Film</h1>
         </div>
         <div class="row">
