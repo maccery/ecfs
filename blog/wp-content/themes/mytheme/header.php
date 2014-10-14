@@ -6,8 +6,8 @@
     <meta http-equiv="content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content="fashion show, edinburgh charity fashion show, edinburgh university, charity fashion show,
     ecfs, ecfs 2014, ecfs 2015, uni fashion show, students, universities, fashion"/>
-    <meta name="copyright" content="Copyright Maccery.com 2014">
-    <meta name="author" content="Maccery.com">
+    <meta name="copyright" content="Copyright Edinburgh Charity Fashion Show 2014-2015">
+    <meta name="author" content="ECFS">
     <meta name="email" content="t.macmichael@edinburghcharityfashionshow.org">
     <meta name="Rating" content="General">
     <meta name="Revisit-after" content="1 Days">
@@ -15,8 +15,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
     <meta property="og:title" content="<?php wp_title(''); ?> | Edinburgh Charity Fashion Show 2015 Blog">
-    <meta property="og:description" content="<?= $description ?>">
+    <meta property="og:description" content="Official blog of Edinburgh Charity Fashion Show 2015.">
     <script src="//use.typekit.net/xic2vkh.js"></script>
+    <script src='/assets/js/bootstrap.min.js'></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
@@ -35,6 +36,14 @@
     </script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1496735900589861&version=v2.0";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 <nav class="navbar navbar-default" role="navigation" style="height: 30px;">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -70,10 +79,23 @@
 </div>
 <div id="main" role="main" class="container" style="margin-top: 0px; width: 100%;">
     <section style=" width: 100%;">
-        <div class="col-sm-3 row">
+        <div class="col-sm-3 row" id="left-sidebar">
             <div class="text-center"><img src="/assets/img/blog/elephant2.png" width="150">
                 <p><small><i>"The elephant in the room"</i></small></p>
+                <!-- SnapWidget -->
+                <script src="http://snapwidget.com/js/snapwidget.js"></script>
+
             </div>
+            <div class="text-center">
+                <iframe src="http://snapwidget.com/in/?u=ZWRpZmFzaGlvbnNob3d8aW58ODB8MnwzfHxub3w1fG5vbmV8b25TdGFydHxub3xubw==&ve=141014" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:170px; height:255px"></iframe>
+                <ul class="list list-unstyled">
+                    <li><a href="http://facebook.com/edifashionshow" target="_blank">Facebook</a></li>
+                    <li><a href="http://instagram.com/edifashionshow" target="_blank">Instagram</a></li>
+                    <li><a href="http://twitter.com/edifashionshow" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+
+
         </div>
         <div class="col-sm-6">
             <!-- end header -->

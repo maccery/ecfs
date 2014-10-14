@@ -4,7 +4,7 @@
         public function index()
         {
             $data['title'] = 'Events | ECFS 2015 - Edinburgh Charity Fashion Show';
-            $data['description'] = 'Edinburgh Charity Fashion Show (ECFS) 2015 - coming soon.';
+            $data['description'] = "Find out all the latest upcoming ECFS events.";
 
             /* Get events from Facebook */
             $this->load->library('facebook');

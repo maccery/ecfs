@@ -14,7 +14,7 @@
         private function photos($album_id = NULL)
         {
             $data['title'] = 'Photoshoots | ECFS 2015 - Edinburgh Charity Fashion Show';
-            $data['description'] = 'Edinburgh Charity Fashion Show (ECFS) 2015 - coming soon.';
+            $data['description'] = "See the latest photoshoots taken by our team of photographers.";
 
             /* Get photo albums from Facebook */
             $this->load->library('facebook');
@@ -33,7 +33,7 @@
             }
 
             $data['sources'] = $sources;
-            $data['photos'] = $this->load->view('photoshoots/album', $data, TRUE);
+            $data['photos'] = $this->load->view('photoshoots/lightbox', $data, TRUE);
 
             $data['albums'] = $albums;
 

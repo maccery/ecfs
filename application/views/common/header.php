@@ -6,8 +6,8 @@
     <meta http-equiv="content-Type" content="text/html; charset=utf-8"/>
     <meta name="keywords" content="fashion show, edinburgh charity fashion show, edinburgh university, charity fashion show,
     ecfs, ecfs 2014, ecfs 2015, uni fashion show, students, universities, fashion"/>
-    <meta name="copyright" content="Copyright Maccery.com 2014">
-    <meta name="author" content="Maccery.com">
+    <meta name="copyright" content="Copyright Edinburgh Charity Fashion Show 2014-2015">
+    <meta name="author" content="ECFS">
     <meta name="email" content="t.macmichael@edinburghcharityfashionshow.org">
     <meta name="Rating" content="General">
     <meta name="Revisit-after" content="1 Days">

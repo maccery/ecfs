@@ -4,7 +4,7 @@
         public function index()
         {
             $data['title'] = 'Charities | ECFS 2015 - Edinburgh Charity Fashion Show';
-            $data['description'] = 'Edinburgh Charity Fashion Show (ECFS) 2015 - coming soon.';
+            $data['description'] = "This year we're supporting two charities: Elephant Family and SAMH.";
 
             $this->load->view('common/header', $data);
             $this->load->view('charities');
