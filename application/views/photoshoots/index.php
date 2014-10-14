@@ -4,7 +4,7 @@
             <div class="col-md-3">
                 <ul class="list list-unstyled">
                 <? foreach($albums as $album): ?>
-                    <? if (strpos(strtolower($album->name), 'shoot')): ?>
+                    <? if (strstr($album->name, '//')): ?>
                     <li><a href="/photoshoots/view/<?= $album->id ?>"><?= $album->name ?></a></li>
                         <? endif?>
                 <? endforeach ?>
