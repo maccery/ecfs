@@ -7,7 +7,11 @@
                         <h2><a href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                         <small><h5><?php the_time('F jS, Y') ?></h5></small>
                         <p><?php the_content(__('(more...)')); ?></p>
+                        <? if (is_single() ) {  ?>
+                        <div class="fb-comments" href="<?php the_permalink(); ?>" data-width="100%" ></div>
+                    <? } ?>
                     </div>
+
                 </article>
                 <hr> <?php endwhile; else: ?>
                 <?php _e('Sorry, no posts matched your criteria.'); ?>

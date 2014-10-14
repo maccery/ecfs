@@ -6,6 +6,10 @@
   a:hover { .font-color(@main-color) }
 }
 
+header a, footer a, footer a:hover {
+  color: black;
+}
+
 body {
   background-color: @background-color;
   p,div {
@@ -33,7 +37,15 @@ body {
     height: 100px;
     background-color: white;
     text-transform: uppercase;
+    .nav, .navbar, li, ul a {
+      color: black;
+    }
 
+.navbar-nav {
+  a, ul, li {
+    color: black;
+  }
+}
   }
   .navbar-collapse {
     z-index:2;
@@ -108,7 +120,7 @@ body {
 
 
 
-@media (max-width: 640px)
+@media (max-width: @screen-xs-max)
 {
   h1 {
     font-size: (@font-size-h1*0.7);
@@ -129,7 +141,7 @@ body {
 
 }
 
-@media (max-width: 840px)
+@media (max-width: @screen-sm-max)
 {
   #logo {
     display: none;
@@ -139,3 +151,10 @@ body {
   }
 }
 
+
+@media (max-width: @screen-sm-max)
+{
+  #left-sidebar {
+    display: none;
+  }
+}
