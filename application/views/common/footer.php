@@ -11,13 +11,6 @@
             <p><small style="font-size: 14px; color: #a9a9a9; ">&copy; Copyright 2014 <a style="color: #a9a9a9;border: none;" href="http://maccery.com" target="_blank">Tom Macmichael</a></small></p>
         </div>
     </footer>
-    <script src="/assets/js/parallax.js"></script>
-    <script src="http://snaxcafe.com/js/hashchange.js"></script>
-    <script src="/assets/js/application.js"></script>
-<!--[if lt IE 7 ]>
-<script src="/assets/js/libs/dd_belatedpng.js"></script>
-<script>DD_belatedPNG.fix("img, .png_bg");
-<![endif]-->
 
 </body>
 </html>

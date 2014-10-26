@@ -5,7 +5,7 @@
                 <ul class="list list-unstyled">
                 <? foreach($albums as $album): ?>
                     <? if (strstr($album->name, '//')): ?>
-                    <li><a href="/photoshoots/view/<?= $album->id ?>"><?= $album->name ?></a></li>
+                    <li><a href="/photoshoots/view/<?= $album->id ?>"><?= str_replace('//','',$album->name) ?></a></li>
                         <? endif?>
                 <? endforeach ?>
                 </ul>

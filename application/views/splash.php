@@ -24,6 +24,16 @@
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="Edinburgh Charity Fashion Show (ECFS) 2015"/>
     <title>ECFS 2015 - Edinburgh Charity Fashion Show</title>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55663578-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
 <video autoplay loop poster="/assets/video/background.jpg" id="background" muted="true">

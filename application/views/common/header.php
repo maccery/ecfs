@@ -39,7 +39,6 @@
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
                 <a href="/welcome"><img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive"></a>
                 </div>
@@ -64,7 +63,7 @@
                     <li><a href="/team">Team</a></li>
                     <li><a href="/photoshoots">Photoshoots</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
     <div id="main" role="main" class="container text-center">
