@@ -8,7 +8,7 @@
         </div>
         <div class="row">
             <p>
-                We would like to invite you sponsor the Edinburgh Charity Fashion Show 2015 supporting Scottish Mental
+                We would like to invite you to sponsor the Edinburgh Charity Fashion Show 2015 supporting Scottish Mental
                 Health and Elephant Family. In exchange, we would happily advertise your business across all of our
                 social media platforms including Facebook, our official website and blog. Your company logo would be
                 featured on all official ECFS 2015 literature leading up to and on the night of the show. We would be
