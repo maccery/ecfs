@@ -14,7 +14,7 @@
             charities.</p>
             <p>The ECFS campaign runs throughout the year culminating in our annual fashion show in March. ECFS has raised
             over a quarter of a million pounds for charities throughout the United Kingdom.</p>
-            <p>Last year the campaign raised over £20,000 for WaterAid. The year long campaign celebrated Scottish
+            <p>Last year the campaign raised £20,000 for WaterAid. The year long campaign celebrated Scottish
             heritage, bringing together all of the incredible aspects of Scotland, focusing on our city Edinburgh. The
             show was held at the beautiful National Museum of Scotland and was an amazing event and raised a huge amount
             of money for a fantastic cause.</p>

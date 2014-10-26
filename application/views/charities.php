@@ -41,7 +41,7 @@
                     <small>ECFS has previously supported:</small>
                 </p>
                 <p>
-                    CHAS, Water Aid. Sandpiper Trust, Breakthrough Breast Cancer, Cancer Support Scotland, Marie Curie,
+                    CHAS, Water Aid, Sandpiper Trust, Breakthrough Breast Cancer, Cancer Support Scotland, Marie Curie,
                     Maggies Centres Scotland, Motor Neuron Scotland</p>
             </div>
     </article>

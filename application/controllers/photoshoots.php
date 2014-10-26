@@ -22,7 +22,7 @@
 
             if (!$album_id)
             {
-                $album_id = $albums[0]->id;
+                $album_id = 737867756250207;
             }
             // print_r($this->facebook->getAlbum($album_id));
             $photos = $this->facebook->getAlbum($album_id);

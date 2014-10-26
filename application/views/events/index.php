@@ -1,7 +1,7 @@
 <section id="events">
     <article>
         <div class="cover">
-            <img src="/assets/img/events/eventsdrawing.png" class="img-responsive">
+            <img src="/assets/img/events/eventsdrawing.png" style="width:100%;" class="img-responsive">
         </div>
         <div class="row">
             <h1>Events</h1>

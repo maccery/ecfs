@@ -6,7 +6,7 @@
     })(jQuery);
 </script>
 <style>
-    .img {
+    .imgg {
         position: relative;
         float: left;
         width: 600px;
@@ -18,6 +18,6 @@
 </style>
 <ul class="list list-unstyled list-inline" id="scroller">
     <? foreach($photos as $photo): ?>
-        <li class="img" style="background-image:url('<?= $photo->source ?>');"></li>
+        <li class="imgg" style="background-image:url('<?= $photo->source ?>');"></li>
     <? endforeach ?>
 </ul>
