@@ -22,7 +22,7 @@
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="Official blog of Edinburgh Charity Fashion Show 2015."/>
-    <title><?php wp_title(''); ?> | ECFS 2015 Blog - Edinburgh Charity Fashion Show</title>
+    <title><?php wp_title(''); ?><? (wp_title('')) ? '| ' : '' ?>ECFS 2015 Blog - Edinburgh Charity Fashion Show</title>
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
