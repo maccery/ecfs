@@ -8,8 +8,10 @@
 
             /* Get events from Facebook */
             $this->load->library('facebook');
+
             $events = $this->facebook->getEvents('386828244687495');
 
+            $event_views = NULL;
             foreach ($events as $event)
             {
                 $event = $this->facebook->getEvent($event->id);
