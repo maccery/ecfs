@@ -27,7 +27,15 @@
             $response = $request->execute();
             $graphObject = $response->getGraphObject();
 
-            return $graphObject->getProperty('data')->asArray();
+            if (method_exists($graphObject->getProperty('data'), 'asArray'))
+            {
+
+                return $graphObject->getProperty('data')->asArray();
+            }
+            else
+            {
+                return array();
+            }
         }
 
         public function getEvent($events_id)
