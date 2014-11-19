@@ -13,8 +13,16 @@
                     </div>
 
                 </article>
-                <hr> <?php endwhile; else: ?>
-                <?php _e('Sorry, no posts matched your criteria.'); ?>
+                <hr>
+                <?php endwhile; ?>
+                <div class="row text-center">
+                    <P>
+                        <?php previous_posts_link( 'Newer' ); ?>
+                        <?php next_posts_link( 'Older' ); ?>
+                    </P>
+                </div>
+            <? else: ?>
+            <?php _e('Sorry, no posts matched your criteria.'); ?>
             <?php endif; ?>
             <!-- end content -->
     </div>
