@@ -13,7 +13,7 @@
                 social media platforms including Facebook, our official website and blog. Your company logo would be
                 featured on all official ECFS 2015 literature leading up to and on the night of the show. We would be
                 delighted to discuss this opportunity with you further, and we would appreciate the chance to present to
-                you the multitude of ways THE Edinburgh charity fashion show 2015 could showcase your company to tens of
+                you the multitude of ways the Edinburgh charity fashion show 2015 could showcase your company to tens of
                 thousands of students.
             </p>
             <p><a href="mailto:sponsors@edinburghcharityfashionshow.org">sponsors@edinburghcharityfashionshow.org</a></p>

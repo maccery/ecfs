@@ -12,7 +12,7 @@
         <? endforeach ?>
         <? else: ?>
         <div class="row">
-            <p>There are no upcoming events!</p>
+            <p>Next: Ticket Launch Party, details tbc</p>
         </div>
         <? endif ?>
     </article>
