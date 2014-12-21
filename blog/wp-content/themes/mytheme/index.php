@@ -26,7 +26,7 @@
             <?php endif; ?>
             <!-- end content -->
     </div>
-    <div class="col-md-3 row">
+    <div class="col-md-3 row" style="background-color: transparent;">
             <!-- sidebar -->
             <?php get_sidebar(); ?>
             <!-- end sidebar -->
