@@ -27,7 +27,7 @@
                         'id' => '',
                         'name' => ''
                     );
-echo strtotime($fb_event['start_time']);
+                    
                     $event['start_time'] = date('l dS F Y H:i', strtotime($fb_event['start_time']));
                     if (array_key_exists('end_time', $fb_event))
                     {
