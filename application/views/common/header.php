@@ -56,8 +56,10 @@
                     <li><a href="/charities">Charities</a></li>
                     <li><a href="/designers">Designers</a></li>
                     <li><a href="/sponsors">Sponsors</a></li>
+                    <li><a href="/models">Models</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/video">Video</a></li>
                     <li><a href="/blog">Blog</a></li>
                     <li><a href="/events">Events</a></li>
                     <li><a href="/team">Team</a></li>
