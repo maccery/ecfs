@@ -3,8 +3,8 @@ class Models extends CI_Controller {
 
     public function index()
     {
-        $data['title'] = 'Photoshoots | ECFS 2015 - Edinburgh Charity Fashion Show';
-        $data['description'] = "See the latest photoshoots taken by our team of photographers.";
+        $data['title'] = 'Models | ECFS 2015 - Edinburgh Charity Fashion Show';
+        $data['description'] = "Models of this year's Edinburgh Charity Fashion Show.";
 
         /* Get photo albums from Facebook */
         $this->load->library('facebook');
@@ -16,6 +16,8 @@ class Models extends CI_Controller {
         }
 
         $data['sources'] = $sources;
+        shuffle($sources);
+        $data['random_model'] = $sources[0];
         $data['photos'] = $this->load->view('photoshoots/lightbox', $data, TRUE);
 
         $this->load->view('common/header', $data);
