@@ -8,7 +8,7 @@
     <meta name="keywords" content="fashion show, edinburgh charity fashion show, edinburgh university, charity fashion show,
     ecfs, ecfs 2014, ecfs 2015, uni fashion show, students, universities, fashion"/>
     <meta name="copyright" content="Copyright Edinburgh Charity Fashion Show 2014-2015">
-    <meta name="author" content="ECFS">
+    <meta name="author" content="<?php if(is_single()) { while ( have_posts() ) : the_post(); the_author(); endwhile; wp_reset_query(); } else { echo 'ECFS'; } ?>">
     <meta name="email" content="t.macmichael@edinburghcharityfashionshow.org">
     <meta name="Rating" content="General">
     <meta name="Revisit-after" content="1 Days">
@@ -16,13 +16,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
     <meta property="og:title" content="<?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?>">
-    <meta property="og:description" content="Official blog of Edinburgh Charity Fashion Show 2015.">
+    <meta property="og:description" content="<?php bloginfo('description'); ?>">
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script src='/assets/js/bootstrap.min.js'></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
-    <meta name="description" content="Official blog of Edinburgh Charity Fashion Show 2015."/>
+    <meta name="description" content="<?php bloginfo('description'); ?>"/>
     <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
     <script>
