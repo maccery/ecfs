@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +15,7 @@
     <meta name="ROBOTS" content="INDEX, FOLLOW">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:image" content="/assets/img/ecfs-fb.jpg">
-    <meta property="og:title" content="<?php wp_title(''); ?> | Edinburgh Charity Fashion Show 2015 Blog">
+    <meta property="og:title" content="<?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?>">
     <meta property="og:description" content="Official blog of Edinburgh Charity Fashion Show 2015.">
     <script src="//use.typekit.net/xic2vkh.js"></script>
     <script src='/assets/js/bootstrap.min.js'></script>
@@ -22,7 +23,7 @@
     <script src='https://code.jquery.com/jquery-1.11.1.min.js'></script>
     <link rel='shortcut icon' type='image/x-icon' href="/assets/img/favicon.ico">
     <meta name="description" content="Official blog of Edinburgh Charity Fashion Show 2015."/>
-    <title><?php wp_title(''); ?><? (wp_title('')) ? '| ' : '' ?>ECFS 2015 Blog - Edinburgh Charity Fashion Show</title>
+    <title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(''); ?></title>
     <link rel="stylesheet" href="/blog/wp-content/themes/mytheme/style.css">
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
