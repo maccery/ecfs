@@ -1,6 +1,6 @@
 <section id="photoshoots">
     <article>
-        <div class="row" style="padding-top: 130px;">
+        <div class="row padding-top">
             <div class="col-md-3">
                 <ul class="list list-unstyled">
                 <? foreach($albums as $album): ?>
