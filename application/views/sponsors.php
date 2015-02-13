@@ -6,7 +6,15 @@
         <div class="row">
             <h1>Sponsors</h1>
         </div>
+        <div class="row text-center">
+            Official partner:<br>
+            <div class="col-sm-3" style="padding: 4px;">
+                <a href="http://www.bellpottinger.com/" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/bell.jpg" border="0"></a>
+            </div>
+        </div>
+        <hr>
         <div class="row">
+            Other sponsors:<br>
             <div class="col-sm-3" style="padding: 4px;">
                 <a href="http://thisisourvision.com/" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/nightvision.jpg" border="0"></a>
             </div>
@@ -45,6 +53,12 @@
             </div>
             <div class="col-sm-3" style="padding: 4px;">
                 <a href="http://www.bordeauxindex.com/" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/bordeaux.jpg" border="0"></a>
+            </div>
+            <div class="col-sm-3" style="padding: 4px;">
+                <a href="http://www.locationscotland.com" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/ls.jpg" border="0"></a>
+            </div>
+            <div class="col-sm-3" style="padding: 4px;">
+                <a href="http://www.handpickedhotels.co.uk/hotels/norton-house/" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/norton.jpg" border="0"></a>
             </div>
         </div>
         <hr>
