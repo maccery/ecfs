@@ -61,6 +61,11 @@
                 <a href="http://www.handpickedhotels.co.uk/hotels/norton-house/" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/norton.jpg" border="0"></a>
             </div>
         </div>
+        <div class="row">
+            <div class="col-sm-3" style="padding: 4px;">
+                <a href="http://www.ruffians.co.uk" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/ruffians.png" border="0"></a>
+            </div>
+        </div>
         <hr>
         <div class="row">
             <p>

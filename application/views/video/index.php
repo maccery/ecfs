@@ -31,6 +31,11 @@
                     <iframe class="embed-responsive-item" src="//player.vimeo.com/video/112727239" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
             </div>
+            <div class="col-sm-4" style="padding: 4px;">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="//player.vimeo.com/video/120048550" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
         </div>
     </article>
 </section>
