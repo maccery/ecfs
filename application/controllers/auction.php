@@ -25,6 +25,12 @@
             $this->load->model('auction_model');
             $item = $this->auction_model->get_item($id);
 
+            if (!$item)
+            {
+                $this->load->helper('url_helper');
+                redirect('/auction');
+            }
+
             $this->load->view('auction/bid', $item);
             $this->load->view('common/footer');
         }
@@ -66,14 +72,14 @@
                 /* Send email confirmation */
                 $this->send_confirmation_email($data);
 
-                $this->load->view('common/header');
+                $this->load->view('common/header', $data);
                 $this->load->view('auction/bid_success');
 
 
             } Catch (Exception $e)
             {
 
-                $this->load->view('common/header');
+                $this->load->view('common/header', $data);
                 $this->load->view('auction/bid_failed', array('message' => $e->getMessage()));
                 $this->load->view('common/footer');
             }
@@ -95,7 +101,7 @@
 
                 $this->auction_model->confirm_bid($key);
 
-                $this->load->view('common/header');
+                $this->load->view('common/header', $data);
                 $this->load->view('auction/bid_confirmed');
                 $this->load->view('common/footer');
             }
