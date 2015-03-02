@@ -11,7 +11,7 @@
                 <li><a href="http://instagram.com/edifashionshow" target="_blank">Instagram</a></li>
                 <li><a href="http://twitter.com/edifashionshow" target="_blank">Twitter</a></li>
             </ul>
-            <p><small style="font-size: 14px; color: #a9a9a9; ">&copy; Copyright 2015 <a style="color: #a9a9a9;border: none;" href="http://maccery.com" target="_blank">Maccery</a></small></p>
+            <p><small style="font-size: 14px; color: #a9a9a9; ">&copy; Copyright 2015</small></p>
         </div>
     </footer>
 

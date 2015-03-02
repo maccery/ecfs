@@ -17,13 +17,19 @@ class Auction_model extends CI_Model {
     }
 
     public function get_items() {
-        $this->db->order_by('item_name', 'asc');
-        return $this->db->get('items')->result();
+        $query = "SELECT * from items, items_images WHERE items_images.items_id = items.id GROUP BY items.id";
+        return $this->db->query($query)->result();
     }
 
     public function get_item($id) {
         $this->db->where('id', $id);
         return $this->db->get('items')->row();
+    }
+
+    public function get_images($items_id) {
+        $this->db->where('items_id', $items_id);
+
+        return $this->db->get('items_images')->result();
     }
 
     public function get_bid($key) {

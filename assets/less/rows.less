@@ -151,23 +151,37 @@ body {
 }
 
 
+#logo {
+  position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3;
+
+  img {
+    width: 200px;
+  }
+}
+
 @media (max-width: @screen-sm-max)
 {
-  #logo {
-    display: none;
-  }
+
   .spacer {
     display: none;
   }
   .padding-top {
     padding-top: 0px;
   }
-}
 
-
-@media (max-width: @screen-sm-max)
-{
   #left-sidebar {
     display: none;
   }
+}
+
+
+@media (max-width: @screen-xs-max)
+{
+  #logo {
+    margin-left: -45px;
+    img {
+      width: 90px;
+    }
+  }
+
 }

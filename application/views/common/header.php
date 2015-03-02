@@ -39,8 +39,8 @@
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid">
-            <div id="logo" style="position: absolute; padding-top: 5px; margin-left: -100px; left: 50%; z-index: 3">
-                <a href="/welcome"><img src="/assets/img/ecfs-logo.png" width="200" class="img-responsive"></a>
+            <div id="logo">
+                <a href="/welcome"><img src="/assets/img/ecfs-logo.png" class="img-responsive"></a>
                 </div>
             <div class="navbar-header" style="z-index:2;">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">

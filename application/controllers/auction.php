@@ -24,6 +24,7 @@
 
             $this->load->model('auction_model');
             $item = $this->auction_model->get_item($id);
+            $image_gallery = $this->load->view('auction/gallery', array('images' => $this->auction_model->get_images($id)), TRUE);
 
             if (!$item)
             {
@@ -31,22 +32,30 @@
                 redirect('/auction');
             }
 
-            $this->load->view('auction/bid', $item);
+            $this->load->view('auction/bid', array('item' => $item, 'image_gallery' => $image_gallery));
             $this->load->view('common/footer');
         }
 
-        public function do_bid()
+        public function do_bid($items_id)
         {
-            $data['title'] = 'Auction | ECFS 2015 - Edinburgh Charity Fashion Show';
-            $data['description'] = 'Auction | ECFS 2015 - Edinburgh Charity Fashion Show';
+            $page_data['title'] = 'Auction | ECFS 2015 - Edinburgh Charity Fashion Show';
+            $page_data['description'] = 'Auction | ECFS 2015 - Edinburgh Charity Fashion Show';
 
             try
             {
+
+                /* Verify theitem id */
+                $this->load->model('auction_model');
+                $item = $this->auction_model->get_item($items_id);
+                if (!$item)
+                {
+                    throw new Exception ("This is an invalid item");
+                }
+
                 /* Validate input */
                 $this->load->library('form_validation');
 
-                $this->form_validation->set_rules('items-id', 'Item', 'int|required');
-                $this->form_validation->set_rules('bid-amount', 'Bid amount', 'decimal|required');
+                $this->form_validation->set_rules('bid-amount', 'Bid amount', 'is_natural_no_zero|required');
                 $this->form_validation->set_rules('email', 'Email', 'valid_email|required');
 
                 if ($this->form_validation->run() == FALSE)
@@ -56,31 +65,33 @@
 
                 /* Generate random bid key */
                 $key = md5(uniqid(rand(), true));
+                $items_id = $this->input->post('items-id');
 
                 $data = array(
-                    'items_id' => $this->input->post('items-id'),
+                    'items_id' => $items_id,
                     'email' => $this->input->post('email'),
-                    'bid_amount' => $this->input->post('bid-amount'),
+                    'bid_amount' => number_format($this->input->post('bid-amount'), 2),
                     'key' => $key,
                     'timestamp' => time()
                 );
 
+
                 /* Create bid */
-                $this->load->model('auction_model');
                 $this->auction_model->create_bid($data);
 
                 /* Send email confirmation */
                 $this->send_confirmation_email($data);
 
-                $this->load->view('common/header', $data);
-                $this->load->view('auction/bid_success');
+                $this->load->view('common/header', $page_data);
+                $this->load->view('auction/bid_success', array('item' => $item));
+                $this->load->view('common/footer');
 
 
             } Catch (Exception $e)
             {
 
-                $this->load->view('common/header', $data);
-                $this->load->view('auction/bid_failed', array('message' => $e->getMessage()));
+                $this->load->view('common/header', $page_data);
+                $this->load->view('auction/bid_failed', array('item' => $item, 'message' => $e->getMessage()));
                 $this->load->view('common/footer');
             }
         }

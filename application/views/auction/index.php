@@ -10,11 +10,11 @@
             <? foreach($items as $item): ?>
                 <tr>
                     <td>
-                        <b><?= $item->item_name ?></b><br>
-                        <?= $item->description ?>
+                        <a href="/auction/bid/<?= $item->id ?>"><h3><?= $item->item_name ?></h3>
+                        <p><img style="border: 1px solid grey;" width="250" src="/assets/img/auction/<?= $item->image_url ?>"></p>
+                        <p><a href="/auction/bid/<?= $item->id ?>"><button class="btn btn-primary">Bid</button></a></p>
+                        <p class="well"><?= $item->description ?></p>
                     </td>
-                    <td><img src="/img/auction/<?= $item->image_url ?>"></td>
-                    <td><a href="/auction/bid/<?= $item->id ?>">Bid</a></td>
                 </tr>
             <? endforeach; ?>
             </table>
