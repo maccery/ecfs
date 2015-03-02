@@ -65,7 +65,6 @@
 
                 /* Generate random bid key */
                 $key = md5(uniqid(rand(), true));
-                $items_id = $this->input->post('items-id');
 
                 $data = array(
                     'items_id' => $items_id,
