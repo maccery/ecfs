@@ -37,7 +37,7 @@
     </script>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div id="logo">
                 <a href="/welcome"><img src="/assets/img/ecfs-logo.png" class="img-responsive"></a>
