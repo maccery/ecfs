@@ -65,6 +65,15 @@
             <div class="col-sm-3" style="padding: 4px;">
                 <a href="http://www.ruffians.co.uk" target="_blank"><img class="img-responsive" src="/assets/img/sponsors/ruffians.png" border="0"></a>
             </div>
+            <div class="col-sm-3" style="padding: 4px;">
+                <img class="img-responsive" src="/assets/img/sponsors/zen.png" border="0">
+            </div>
+            <div class="col-sm-3" style="padding: 4px;">
+                <img class="img-responsive" src="/assets/img/sponsors/thai.png" border="0">
+            </div>
+            <div class="col-sm-3" style="padding: 4px;">
+                <img class="img-responsive" src="/assets/img/sponsors/meadowlark.png" border="0">
+            </div>
         </div>
         <hr>
         <div class="row">
